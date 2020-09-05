@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../js/rem.js"></script>
+    <script src="../../js/ajax.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <link rel="stylesheet" href="../../js/font/iconfont.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="public.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head">
+    </div>
+    <div class="content">
+        <div id="setting">
+
+        </div>
+
+        <div class="tip">
+            点击“手动控制”后就执行以下设备操作
+        </div>
+        <div class="equipment">
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="start">启动</div>
+    </div>
+
+    <script>
+        const num = window.location.search.substr(1);
+
+        let head = document.getElementsByClassName('head')[0];
+        let setting = document.getElementById('setting');
+        let equipment = document.getElementsByClassName('equipment')[0];
+
+        
+        ajax('https://www.fastmock.site/mock/b79bdeab7d613f5e489b44c02ef1651d/IOTWeb/data',
+            function(res){                
+                let data = JSON.parse(res);
+
+                head.innerHTML = `
+                    <img src="${data[num].img}" alt="">
+                    <div class="iconfont icon-fanhui icon-fanhui"></div>
+                    <div class="head_content">
+                        <div id="head_title" class="head_title">${data[num].title}</div>
+                        <p id="head_info" class="head_info">${data[num].page}</p>
+                    </div>
+                `
+                let btn_back = document.getElementsByClassName('icon-fanhui')[0];
+                btn_back.onclick = function(){
+                    window.history.go(-1);
+                }
+                
+                setting.innerHTML = `
+                <div class="content_name">
+                    <strong>名称</strong>
+                    <i>${data[num].title} &nbsp;</i>
+                    <span class="iconfont icon-jinru-copy"></span>
+                </div>
+                <div class="line"></div>
+                <div class="content_name content_icon">
+                    <strong>图标</strong>
+                    <i class="${data[num].titleIcon}"> &nbsp;</i>
+                    <span class="iconfont icon-jinru-copy"></span>
+                </div>
+                `
+                for(var i=0;i<data[num].operation.length;i++){
+                    var oLi=document.createElement('li')
+                    oLi.innerHTML=`
+                        <img src="../../img/jinghuqqi.jpg" alt="" class="img_info">
+                        <div>
+                            <strong>${data[num].operation[i].tit}</strong>
+                            <span>${data[num].operation[i].gn}</span>
+                        </div>
+                        <i>暂无设备</i>
+                    `
+                    equipment.appendChild(oLi)
+                }
+            }
+        );
+
+
+
+        
+    </script>
+</body>
+
+</html>

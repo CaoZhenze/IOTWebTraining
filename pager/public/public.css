@@ -1,0 +1,128 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.head {
+  height: 2.2rem;
+  padding: 0.1rem;
+}
+.head img {
+  width: 3.75rem;
+  height: 2.4rem;
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+.head .icon-fanhui {
+  color: white;
+  font-size: 0.2rem;
+}
+.head .head_content {
+  margin-top: 1.2rem;
+  margin-left: 0.05rem;
+  color: white;
+}
+.head .head_content .head_title {
+  font-size: 0.22rem;
+  margin-bottom: 0.1rem;
+}
+.head .head_content .head_info {
+  font-size: 0.1rem;
+  line-height: 0.15rem;
+}
+.content {
+  height: 4rem;
+}
+.content .line {
+  padding: 0 0.15rem;
+  background: #F9F9F9;
+  height: 0.02rem;
+}
+.content .content_name {
+  padding: 0 0.15rem;
+  height: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .content_name strong {
+  flex: 1;
+  font-size: 0.15rem;
+}
+.content .content_name i {
+  color: #818181;
+}
+.content .content_name .icon-my-home {
+  color: #FCD696;
+  font-size: 0.2rem;
+}
+.content .content_name span {
+  font-size: 0.05rem;
+}
+.content .tip {
+  padding: 0 0.15rem;
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+  background: #F9F9F9;
+  color: #5D5D5D;
+}
+.content .equipment {
+  padding: 0 0.15rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+.content .equipment li {
+  height: 0.7rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.01rem solid #F9F9F9;
+}
+.content .equipment li .img_info {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: gray;
+}
+.content .equipment li div {
+  flex: 1;
+  padding-left: 0.15rem;
+  height: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .equipment li div strong {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.content .equipment li div span {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  color: #949496;
+}
+.footer {
+  height: 0.6rem;
+  width: 3.75rem;
+  position: fixed;
+  bottom: 0;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+.footer .start {
+  color: white;
+  height: 80%;
+  flex: 1;
+  margin: auto 0.2rem;
+  background: #D1E0F7;
+  border-radius: 0.5rem;
+  font-size: 0.15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

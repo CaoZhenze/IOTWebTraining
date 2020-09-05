@@ -1,0 +1,193 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 3.75rem;
+    height: 100%;
+}
+.btn{
+    width: 1.5rem;
+    height: 1.72rem;
+    position: absolute;
+    top: 0.87rem;
+    right: 0.1rem;
+    font-size: .3rem;
+    font-weight: bold;
+    span{
+        color: black;
+        width: 0.45rem;
+        float: left;
+        font-size: 0.5rem;
+        padding: 0.1rem;
+    }
+}
+.wrap{
+    width: 3.75rem;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    .wrapBox{
+        width: 7.5rem;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        transition: all 1s;
+        .box{
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+    }
+}
+
+.wrap_content{
+    position: absolute;
+    overflow: hidden;
+    width: 3.75rem;
+    height: 50%;
+    top: 50%;
+    .wrap_content_box{
+        width: 7.5rem;
+        height: 100%;
+        left: 0;
+        transition: all 1s;
+        position: absolute;
+        .box_jiejing_content{
+            width: 50%;
+            height: 100%;
+            float: left;
+            .box1_head{
+                padding: 0.15rem;
+                color: white;
+                display: flex;
+                align-content: center;
+                .box1_head_title{
+                    flex: 1;
+                    font-size: 0.18rem;
+                }
+                .box1_head_add{
+                    border-radius: .2rem;
+                    width: .5rem;
+                    height: .25rem;
+                    background: #9AA7A0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .box1_content{
+                height: 2rem;
+                padding: 0 0.15rem;
+                .box1_content_type{
+                    width: 1.05rem;
+                    height: 50%;
+                    background: white;
+                    opacity: 0.97;
+                    border-radius: 0.1rem;
+                    margin: 0.05rem;
+                    float: left;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: black;
+                    text-align: center;
+                    .iconfont{
+                        font-size: 0.3rem;
+                    }
+                
+                }
+            }
+        }
+        .box_quanwu_content{
+            width: 50%;
+            height: 100%;
+            float: left;
+            .box2_head{
+                margin: 0.15rem;
+                height: 0.3rem;
+                width: 1.33rem;
+                border-radius: 0.2rem;
+                background: white;
+                opacity: 0.8;
+                font-size: 0.15rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                div{
+                    float: left;
+                    border-radius: 50%;
+                    color: #F6C040;
+                    background: white;
+                    opacity: 1;
+                }
+            }
+            .box2_content{
+                height: 2.3rem;
+                margin: 0.15rem;
+                .box2_content_type{
+                    width: 1.625rem;
+                    height: 1rem;
+                    margin: 0.05rem;
+                    background: white;
+                    border-radius: 0.1rem;
+                    opacity: 0.97;
+                    float: left;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    img{
+                        position: absolute;
+                        width: 0.5rem;
+                        bottom: 0.1rem;
+                        right: 0.1rem;
+                    }
+                    .xuni{
+                        position: absolute;
+                        font-size: 0.16rem;
+                        left: 0.1rem;
+                        top: 0.1rem;
+                    }
+
+                    .iconfont{
+                        font-size: 0.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.title_content{
+    width: 100%;
+    position: absolute;
+    .content{
+        padding: 0.15rem;
+        color: white;
+        .title{
+            font-size: 0.25rem;
+            display: flex;
+            align-items: center;
+            .title_name{
+                flex: 1;
+            }
+            .title_add{
+                font-size: 0.4rem;
+            }
+        }
+        .address{
+            padding: 0.1rem 0;
+            font-size: 0.14rem;
+        }
+        .family_info{
+            font-size: 0.14rem;
+            div{
+                padding: 0.04rem 0;
+            }
+        }
+    }
+
+}
