@@ -1,0 +1,204 @@
+.header{
+    width: 3.75rem;
+    height: 0.24rem;
+    span{
+        float: right;
+        font-size: 0.2rem;
+        color: black;
+        margin: 0.1rem 0.13rem;
+    }
+}
+
+.content{
+    
+    .user{
+        margin: 0.1rem 0.15rem;
+        height: 0.9rem;
+        width: 3.45rem;
+        display: flex;
+        align-items: center;
+        .user_head{
+            height: 0.7rem;
+            width: 0.7rem;
+            background: #E8EEFA;
+            border-radius: 50%;
+        }
+        .user_info{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin-left: 0.2rem;
+            div{
+                height: 0.3rem;
+                line-height: 0.3rem;
+            }
+            .user_name{
+                color: black;
+                font-weight: bold;
+                font-size: 0.2rem;
+            }
+            .user_lv{
+                font-size: 0.1rem;
+                transform: scale(0.95);
+                color: white;
+                span{
+                    border-radius: 0.05rem;
+                    background: #4569B3;
+                    padding: 0.01rem 0.05rem;
+                }
+                i{
+                    margin-left: 0.1rem;
+                    border-radius: 0.05rem;
+                    background: #76777C;
+                    padding: 0.01rem 0.05rem;
+                    font-size: 0.1rem;
+                    padding: 0.02rem 0.01rem;
+                    position: relative;
+                    top: -0.005rem;
+                }
+            }
+        }
+        .user_pager{
+            font-size: 0.14rem;
+            color: grey;
+            span{
+                font-size: 0.1rem;
+                margin-left: 0.1rem;
+            }
+        }
+    }
+    .info{
+        margin: 0 0.15rem;
+        height: 0.9rem;
+        width: 3.45rem;
+        display: flex;
+        align-items: center;
+        div{
+            flex: 1;
+            text-align: center;
+            font-size: 0.18rem;
+            p{
+                margin-top: 0.02rem;
+                font-size: 0.14rem;
+            }
+        }
+    }
+    .vip{
+        margin: 0 0.15rem;
+
+        display: flex;
+        color: white;
+        font-size: 0.1rem;
+
+        .vip_info{
+            flex: 1;
+            display: flex;
+            background: #4B6FB2;
+            border-top-left-radius: 0.1rem;
+            border-top-right-radius: 0.1rem;
+            padding: 0.15rem 0.1rem 0.05rem;
+            z-index: 1;
+            .vip_point{
+                flex: 1;
+            }
+            .icon-jinru-copy{
+                font-size: 0.05rem;
+            }
+
+        }
+        .vip_open{
+            position: relative;
+            left: -0.04rem;
+            top: 0.04rem;
+            color: #F9E9E4;
+            div{
+                background: #50505A;
+                border-top-right-radius: 0.1rem;
+                padding: 0.08rem 0.05rem;
+                padding-left: 0.1rem;
+                span{
+                    position: relative;
+                    top: 0.03rem;
+                }
+                .icon-jinru-copy{
+                    font-size: 0.05rem;
+                }
+
+            }
+
+        }
+    }
+
+    .banner{
+        margin: 0 0.15rem;
+        width: 3.45rem;
+        height: 1rem;
+        margin-top: 0.1rem;
+        .swiper-container{
+            height: 100%;
+            border-radius: 0.08rem;
+            --swiper-theme-color: rgb(167, 167, 167);
+            --swiper-pagination-color: white;/* 两种都可以 */
+
+            .swiper-slide {
+                text-align: center;
+                height: 0.5rem;
+                background: #fff;
+          
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+    
+    .choose{
+        width: 3.75rem;
+        background: #f8f8f8;
+        ul{
+            li{
+                padding: 0.15rem;
+                display: flex;
+                align-items: center;
+                background: white;
+                margin-bottom: 0.01rem;
+                span{
+                    font-size: 0.2rem;
+                }
+                p{
+                    flex: 1;
+                    font-weight: bold;
+                    padding-left: 0.1rem;
+                }
+                i{
+                    font-size: 0.1rem;
+                }
+                .tip{
+                    margin-right: 0.05rem;
+                    letter-spacing: 0.01rem;
+                    color: grey;
+                }
+            }
+            .border_bottom{
+                margin-bottom: 0.1rem;
+            }
+            margin-bottom: 0.4rem;
+            padding-top: 0.1rem;
+            margin-top: 0.1rem;
+        }
+    }
+}

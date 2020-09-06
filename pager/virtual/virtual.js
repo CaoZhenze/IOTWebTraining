@@ -24,6 +24,9 @@ content_box.onclick = function (ev) {
     if (target.nodeName.toLowerCase() == 'li') {
         let id = target.getAttribute('boxId')
         console.log(id);
+        if(id == 2){
+            window.open('../water/', '_self')
+        }
     }
 }
 

@@ -64,3 +64,31 @@
   border-radius: 50%;
   background: #F2BD51;
 }
+.content {
+  height: 2.17rem;
+  width: 3.75rem;
+}
+.content ul {
+  padding: 0.15rem;
+  height: 1.87rem;
+}
+.content ul li {
+  height: 0.66rem;
+  width: 0.66rem;
+  margin: 0 0.1rem 0.28rem;
+  float: left;
+}
+.content ul li .content_pic {
+  background: #F2F2F2;
+  border-radius: 50%;
+  height: 0.6rem;
+  width: 0.6rem;
+  font-size: 0.3rem;
+  color: grey;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.content ul li .content_info {
+  text-align: center;
+  margin-top: 0.05rem;
+}

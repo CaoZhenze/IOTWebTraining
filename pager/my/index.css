@@ -1,0 +1,191 @@
+.header {
+  width: 3.75rem;
+  height: 0.24rem;
+}
+.header span {
+  float: right;
+  font-size: 0.2rem;
+  color: black;
+  margin: 0.1rem 0.13rem;
+}
+.content .user {
+  margin: 0.1rem 0.15rem;
+  height: 0.9rem;
+  width: 3.45rem;
+  display: flex;
+  align-items: center;
+}
+.content .user .user_head {
+  height: 0.7rem;
+  width: 0.7rem;
+  background: #E8EEFA;
+  border-radius: 50%;
+}
+.content .user .user_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.2rem;
+}
+.content .user .user_info div {
+  height: 0.3rem;
+  line-height: 0.3rem;
+}
+.content .user .user_info .user_name {
+  color: black;
+  font-weight: bold;
+  font-size: 0.2rem;
+}
+.content .user .user_info .user_lv {
+  font-size: 0.1rem;
+  transform: scale(0.95);
+  color: white;
+}
+.content .user .user_info .user_lv span {
+  border-radius: 0.05rem;
+  background: #4569B3;
+  padding: 0.01rem 0.05rem;
+}
+.content .user .user_info .user_lv i {
+  margin-left: 0.1rem;
+  border-radius: 0.05rem;
+  background: #76777C;
+  padding: 0.01rem 0.05rem;
+  font-size: 0.1rem;
+  padding: 0.02rem 0.01rem;
+  position: relative;
+  top: -0.005rem;
+}
+.content .user .user_pager {
+  font-size: 0.14rem;
+  color: grey;
+}
+.content .user .user_pager span {
+  font-size: 0.1rem;
+  margin-left: 0.1rem;
+}
+.content .info {
+  margin: 0 0.15rem;
+  height: 0.9rem;
+  width: 3.45rem;
+  display: flex;
+  align-items: center;
+}
+.content .info div {
+  flex: 1;
+  text-align: center;
+  font-size: 0.18rem;
+}
+.content .info div p {
+  margin-top: 0.02rem;
+  font-size: 0.14rem;
+}
+.content .vip {
+  margin: 0 0.15rem;
+  display: flex;
+  color: white;
+  font-size: 0.1rem;
+}
+.content .vip .vip_info {
+  flex: 1;
+  display: flex;
+  background: #4B6FB2;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  padding: 0.15rem 0.1rem 0.05rem;
+  z-index: 1;
+}
+.content .vip .vip_info .vip_point {
+  flex: 1;
+}
+.content .vip .vip_info .icon-jinru-copy {
+  font-size: 0.05rem;
+}
+.content .vip .vip_open {
+  position: relative;
+  left: -0.04rem;
+  top: 0.04rem;
+  color: #F9E9E4;
+}
+.content .vip .vip_open div {
+  background: #50505A;
+  border-top-right-radius: 0.1rem;
+  padding: 0.08rem 0.05rem;
+  padding-left: 0.1rem;
+}
+.content .vip .vip_open div span {
+  position: relative;
+  top: 0.03rem;
+}
+.content .vip .vip_open div .icon-jinru-copy {
+  font-size: 0.05rem;
+}
+.content .banner {
+  margin: 0 0.15rem;
+  width: 3.45rem;
+  height: 1rem;
+  margin-top: 0.1rem;
+}
+.content .banner .swiper-container {
+  height: 100%;
+  border-radius: 0.08rem;
+  --swiper-theme-color: #a7a7a7;
+  --swiper-pagination-color: white;
+  /* 两种都可以 */
+}
+.content .banner .swiper-container .swiper-slide {
+  text-align: center;
+  height: 0.5rem;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.content .banner .swiper-container .swiper-slide img {
+  width: 100%;
+}
+.content .choose {
+  width: 3.75rem;
+  background: #f8f8f8;
+}
+.content .choose ul {
+  margin-bottom: 0.4rem;
+  padding-top: 0.1rem;
+  margin-top: 0.1rem;
+}
+.content .choose ul li {
+  padding: 0.15rem;
+  display: flex;
+  align-items: center;
+  background: white;
+  margin-bottom: 0.01rem;
+}
+.content .choose ul li span {
+  font-size: 0.2rem;
+}
+.content .choose ul li p {
+  flex: 1;
+  font-weight: bold;
+  padding-left: 0.1rem;
+}
+.content .choose ul li i {
+  font-size: 0.1rem;
+}
+.content .choose ul li .tip {
+  margin-right: 0.05rem;
+  letter-spacing: 0.01rem;
+  color: grey;
+}
+.content .choose ul .border_bottom {
+  margin-bottom: 0.1rem;
+}
