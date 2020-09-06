@@ -2,6 +2,13 @@
     width: 3.75rem;
     background: #32A2F5;
     padding-bottom: 0.15rem;
+    #btn_back{
+        position: absolute;
+        color: white;
+        font-size: 0.2rem;
+        top: 0.15rem;
+        left: 0.1rem;
+    }
     .header_title{
         padding: 0.15rem;
         text-align: center;
@@ -40,8 +47,40 @@
     }
     .left{
         width: 20%;
+        li{
+            text-align: center;
+            padding: 0.15rem 0.1rem;
+            border-bottom: 1px solid #dadada;
+            border-right: 1px solid #dadada;
+        }
+        .active{
+            border-right: 0.02rem solid #32A2F5;
+        }
     }
     .right{
         width: 80%;
+        li{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .title{
+                padding: 0.1rem;
+                font-size: 0.2rem;
+            }
+            .content_info{
+                li{
+                    float: left;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0.05rem;
+                    img{
+                        width: 0.9rem;
+                        height: 0.9rem;
+                    }
+                }
+            }
+        }
     }
 }
+

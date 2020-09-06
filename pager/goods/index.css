@@ -1,0 +1,132 @@
+.header {
+  width: 3.75rem;
+  background: #32A2F5;
+}
+.header #btn_back {
+  position: absolute;
+  color: white;
+  font-size: 0.2rem;
+  top: 0.15rem;
+  left: 0.1rem;
+}
+.header .header_title {
+  padding: 0.15rem;
+  text-align: center;
+  font-size: 0.2rem;
+  color: white;
+}
+.content {
+  margin-bottom: 0.4rem;
+}
+.content .banner {
+  height: 3.75rem;
+}
+.content .banner .swiper-container {
+  height: 100%;
+  --swiper-theme-color: #6d6d6d;
+  --swiper-pagination-color: white;
+}
+.content .banner .swiper-container .swiper-slide {
+  text-align: center;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.content .banner .swiper-container .swiper-slide img {
+  width: 3.75rem;
+}
+.content .goods_info {
+  margin: 0 0.1rem;
+}
+.content .goods_info .goods_price {
+  color: red;
+  font-size: 0.2rem;
+  margin: 0.1rem 0;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.02rem solid #e6e6e6;
+}
+.content .goods_info .goods_name_info {
+  display: flex;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.02rem solid #e6e6e6;
+}
+.content .goods_info .goods_name_info .goods_name {
+  flex: 1;
+  font-size: 0.15rem;
+  letter-spacing: 0.01rem;
+  padding-right: 0.01rem;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.content .goods_info .goods_name_info span {
+  font-size: 0.3rem;
+  border-left: 1px solid #d4d4d4;
+  padding-left: 0.03rem;
+}
+.content .goods_pic {
+  margin: 0.1rem 0;
+  color: red;
+  font-size: 0.15rem;
+  font-weight: bold;
+}
+.content .goods_pic .pic_title {
+  margin: 0.1rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 3.75rem;
+  border-top: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  background: white;
+}
+.footer .footer_left {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer_left div {
+  width: 0.5rem;
+  text-align: center;
+}
+.footer .footer_left div span {
+  font-size: 0.2rem;
+}
+.footer .footer_left div p {
+  padding: 0.02rem 0;
+  font-size: 0.1rem;
+}
+.footer .footer_right {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer_right div {
+  width: 1.2rem;
+  text-align: center;
+  color: white;
+}
+.footer .footer_right .add_cart {
+  background: #F5C343;
+  padding: 0.14rem 0;
+}
+.footer .footer_right .buy {
+  background: #ED772F;
+  padding: 0.14rem 0;
+}

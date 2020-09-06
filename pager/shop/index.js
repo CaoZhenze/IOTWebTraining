@@ -1,11 +1,6 @@
 
 $('#footer').load('../tabbar/tabbar.html');
 
-var swiper = new Swiper('.swiper-container', {
-    pagination: {
-        el: '.swiper-pagination',
-    },
-});
 
 let swiper_wrapper = document.getElementsByClassName('swiper-wrapper')[0];
 let navg = document.getElementById('navg');
@@ -23,6 +18,16 @@ ajax('https://api-hmugo-web.itheima.net/api/public/v1/home/swiperdata',
             `
             swiper_wrapper.appendChild(box)
         }
+        var swiper = new Swiper('.swiper-container', {
+            autoplay: {
+                delay: 1500,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
     });
 
 ajax('https://api-hmugo-web.itheima.net/api/public/v1/home/catitems',

@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <script src="../../js/rem.js"></script>
     <script src="../../js/ajax.js"></script>
     <script src="../../js/jquery.js"></script>
@@ -12,39 +10,46 @@
     <link rel="stylesheet" href="../../css/common.css">
     <link rel="stylesheet" href="../../css/swiper-bundle.min.css">
     <link rel="stylesheet" href="index.css">
+    <title>Document</title>
 </head>
-
 <body>
     <div class="header">
-        <div class="search">
-            <span class="iconfont icon-search"></span>
-            <input type="text" placeholder="搜索商品">
-        </div>
+        <span id="btn_back" class="iconfont icon-fanhui"></span> 
+        <div class="header_title">商品详情</div>
     </div>
     <div class="content">
         <div class="banner">
             <div class="swiper-container">
-                <div class="swiper-wrapper">
+                <div id="swiper-wrapper" class="swiper-wrapper">
+
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        <div class="navg">
-            <ul id="navg">
-                <!-- 导航栏 -->
-            </ul>
-        </div>
-        <div id="hot_shop" class="hot_shop">
+        <div id="goods_info" class="goods_info">
 
         </div>
+        <div id="goods_pic" class="goods_pic">
+            <div class="pic_title">图文详情</div>
+        </div>
+        
     </div>
 
-    <div id="footer" class="footer"></div>
+    <div class="footer">
+        <div class="footer_left">
+            <div class="cart"><span class="iconfont icon-icon-1"></span><p>购物车</p></div>
+            <div class="service"><span class="iconfont icon-kefu"></span><p>客服</p></div>
+            <div class="collect"><span class="iconfont icon-xihuan"></span><p>收藏</p></div>
+        </div>
+        <div class="footer_right">
+            <div class="add_cart">加入购物车</div>
+            <div class="buy">立即购买</div>
+        </div>
 
+    </div>
 
     <script src="../../js/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
-
 </html>

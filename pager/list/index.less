@@ -1,0 +1,64 @@
+.header{
+    width: 3.75rem;
+    background: #32A2F5;
+    padding-bottom: 0.15rem;
+    #btn_back{
+        position: absolute;
+        color: white;
+        font-size: 0.2rem;
+        top: 0.15rem;
+        left: 0.1rem;
+    }
+    .header_title{
+        padding: 0.15rem;
+        text-align: center;
+        font-size: 0.2rem;
+        color: white;
+    }
+    .search{
+        margin: 0 0.15rem;
+        background: #F2F2F2;
+        border-radius: 0.2rem;
+        padding: 0.05rem;
+        display: flex;
+        align-items: center;
+        .iconfont{
+            font-size: 0.2rem;
+        }
+        input{
+            flex: 1;
+            border: none;
+            background: #f2f2f2;
+            padding-left: 0.1rem;
+        }
+    }
+}
+.content{
+    .goods_warp{
+        padding: 0.2rem;
+        border-bottom: 1px solid #c2c2c2;
+        display: flex;
+        img{
+            height: 1rem;
+        }
+        .goods_info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 0.15rem;
+            height: 1rem;
+            .goods_introduce{
+                font-size: 0.15rem;
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp:2;
+            }
+            .goods_price{
+                color: red;
+                font-size: 0.17rem;
+                margin-top: 0.2rem;
+            }
+        }
+    }
+}
