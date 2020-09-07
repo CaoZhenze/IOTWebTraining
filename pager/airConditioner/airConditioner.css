@@ -1,0 +1,205 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width: 3.75rem;
+    height: 0.4rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    background: floralwhite;
+}
+.head div{
+    width:50%;
+    text-align: center;
+    line-height: 0.5rem;
+    z-index: 10000;         
+    /* 防止被遮盖住，点不到 */
+}
+.head p{
+    font-size: 0.3rem;
+}
+.head span{
+    font-size: 0.3rem;
+    color: dodgerblue;
+} 
+
+.display{
+    position: fixed;
+    margin-top: 0.5rem;
+    width: 3.75rem;
+    height: 2rem;
+    background: dodgerblue;
+    
+}
+.display span{
+    font-size: 0.3rem;
+    color: white;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+.kongtiao{
+    font-size: 0.7rem;
+    position: relative;
+    top: 1rem;
+    color: dodgerblue;
+    z-index: 10;
+    margin-left: 1.58rem;
+}
+.conditionerPic{
+    height: 1rem;
+    width: 1rem;    
+    background: white;
+    border-radius: 50%;
+    border: 2px solid rgb(18, 132, 247);
+    margin-left: 1.4rem;
+    box-shadow:  1px 1px 1px 1px #666;
+}
+ .addcut{
+    width: 3.75rem;
+    height: 0.5rem;
+    position: relative;
+    top: 3rem;
+}
+.set{
+    width: 2rem;
+    height: 0.4rem;
+    position: fixed;
+    top: 3rem;
+    display: flex;
+    background:white;
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin-left: 0.1rem;
+}
+.set div{
+    width:50%;
+    text-align: center;
+    line-height: 0.4rem;
+    z-index: 10000;         
+    /* 防止被遮盖住，点不到 */
+}
+.set p{
+    font-size: 0.3rem;
+}
+.set span{
+    font-size: 0.3rem;
+    color: dodgerblue;
+} 
+.mode{
+    width: 1.5rem;
+    height: 0.4rem;
+    position: fixed;
+    top: 3rem;
+    right: 0.01rem;
+    display: flex;
+    background:white;
+    border-radius: 20px;
+    /* margin-right: 0.1rem; */
+}
+.mode div{
+    width:50%;
+    text-align: center;
+    line-height: 0.2rem;
+    z-index: 10000;         
+    /* 防止被遮盖住，点不到 */
+}
+.mode span{
+    font-size: 0.4rem;
+    color: dodgerblue;
+}
+.mode p{
+    font-size: 0.2rem;
+    color: dodgerblue;
+} 
+
+.shezhi{
+    width: 3.75rem;
+    height: 0.9rem;
+    border-top: 0.01rem solid gray;
+    border-bottom: 0.01rem solid gray;
+    font-size: 0.15rem;
+    position: fixed;
+    top: 3.7rem;
+    display: flex;
+    background: white;
+}
+.shezhi div{
+    width: 50%;
+    text-align: center;
+    
+    z-index: 10000;         
+    /* 防止被遮盖住，点不到 */
+}
+.shezhi span{
+   font-size:0.4rem; 
+   line-height: 0.55rem
+}
+.shezhi p{
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+}
+.shezhi div:hover{
+    color: dodgerblue;
+}
+
+/* .high{
+    position: fixed;
+    width: 3.75rem;
+    height: 0.5rem;
+    bottom: 1.5rem;
+    
+    border-bottom: 0.01rem solid black;
+}
+.high span{
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+    line-height: 0.5rem;
+}
+.high i{
+    float: right;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    margin-right: 0.15rem;
+} */
+
+.high{
+    position: fixed;
+    width: 3.75rem;
+    height: 0.5rem;
+    bottom: 1.5rem;
+    
+    border-bottom: 0.01rem solid black;
+}
+.high span{
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+    line-height: 0.5rem;
+}
+.high i{
+    float: right;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    margin-right: 0.15rem;
+}
+.message{
+    position: fixed;
+    width: 3.75rem;
+    height: 0.5rem;
+    bottom: 1rem;
+    border-bottom: 0.01rem solid black;
+}
+.message span{
+    font-size: 0.3rem;
+    margin-left: 0.2rem;
+    line-height: 0.5rem;
+}
+.message p{
+    float: right;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    margin-right: 0.15rem;
+}
+

@@ -71,6 +71,10 @@
   padding: 0.1rem;
   font-size: 0.2rem;
 }
+.content .right li .content_info {
+  border-bottom: 1px solid #cacaca;
+  padding-bottom: 0.1rem;
+}
 .content .right li .content_info li {
   float: left;
   display: flex;

@@ -1,6 +1,9 @@
 .header{
     width: 3.75rem;
     background: #32A2F5;
+    position: fixed;
+    top: 0;
+    z-index: 10;
     #btn_back{
         position: absolute;
         color: white;
@@ -66,15 +69,17 @@
                 font-size: 0.15rem;
                 letter-spacing: 0.01rem;
                 padding-right: 0.01rem;
-                display: -webkit-box;
-                overflow: hidden;
-                -webkit-box-orient: vertical;
-                -webkit-line-clamp:2;
+
             }
-            span{
-                font-size: 0.3rem;
+            .goods_share{
                 border-left: 1px solid #d4d4d4;
                 padding-left: 0.03rem;
+                span{
+                    font-size: 0.3rem;
+                }
+                p{
+                    text-align: center;
+                }
             }
         }
 

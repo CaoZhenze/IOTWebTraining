@@ -1,0 +1,130 @@
+html,body{
+    width: 100%;
+    background: #0079C8;
+}
+.head{
+    width: 3.75rem;
+    height: 0.4rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    background: #0079C8;
+}
+.head div{
+    width:50%;
+    text-align: center;
+    line-height: 0.5rem;
+    z-index: 10000;         
+    /* 防止被遮盖住，点不到 */
+}
+.head p{
+    font-size: 0.3rem;
+    color: white;
+}
+.head span{
+    font-size: 0.3rem;
+    color: dodgerblue;
+} 
+.text{
+    width: 3.75rem;
+    height: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    font-size: 0.2rem;
+    color: white;
+    align-items: flex-end;
+}
+.box{
+    width: 2.4rem;
+    height: 3rem;
+    margin-top: 0.3rem;
+    margin-left: 0.35rem;
+    position: fixed;
+    top: 1.5rem;
+    padding: 0 0.3rem;
+    background: 1,122,201;
+    background: #0176AC;
+    border-radius: 10px;
+}
+#dangwei{
+    margin-top: 0.2rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: white;
+}
+.box_up{
+    width: 2.4rem;
+    height: 0.4rem;
+    position: fixed;
+    display: flex;
+}
+.box_up div{
+    width: 50%;
+    text-align: center;
+    line-height: 0.2rem;
+    z-index: 10000;      
+    margin-top: 0.35rem;  
+    /* 防止被遮盖住，点不到 */
+}
+.box_up span:hover{
+    color:greenyellow;
+    
+}
+.box_up span{
+    font-size: 0.6rem;
+    color: white;
+}
+
+.box_down{
+    width: 2.4rem;
+    height: 0.4rem;
+    font-size: 0.15rem;
+    position: fixed;
+    display: flex;
+    margin-top: 1rem;
+}
+.box_down div{
+    width: 50%;
+    text-align: center;
+    z-index: 10000; 
+}
+.box_down span:hover{
+    color: greenyellow;
+}
+.box_down p{
+    font-size: 0.3rem;
+    color: white;
+}
+.box_down span{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footer{
+    width: 3.75rem;
+    height: 1rem;
+    font-size: 0.15rem;
+    position: fixed;
+    bottom: 0.5rem;
+    display: flex;
+}
+.footer div{
+    margin-top: 0.2rem;
+    width: 50%;
+    text-align: center;
+    z-index: 10000;         
+    /* 防止被遮盖住，点不到 */
+}
+.footer span:hover{
+    color: greenyellow;
+}
+.footer p{
+    font-size: 0.2rem;
+    color: white;
+
+}
+.footer span{
+    font-size: 0.5rem;
+    color: white;
+}

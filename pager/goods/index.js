@@ -1,6 +1,4 @@
 
-
-
 // 获取url参数
 function getQueryVariable(variable) {
     let query = window.location.search.substring(1);
@@ -49,7 +47,10 @@ ajax(url, function (res) {
     <div class="goods_price">￥${message.goods_price}</div>
     <div class="goods_name_info">
         <div class="goods_name">${message.goods_name}</div>
-        <span class="iconfont icon-fenxiang"></span>
+        <div onclick="share()" class="goods_share">
+            <span class="iconfont icon-fenxiang"></span>
+            <p>分享</p>
+        </div>
     </div>
     `;
     goods_info.appendChild(box1);
@@ -63,4 +64,9 @@ ajax(url, function (res) {
 
 btn_back.onclick = function(){
     window.history.go(-1);
+}
+
+function share(){
+    let oUrl = document.location.toString();
+    console.log(oUrl);
 }

@@ -65,9 +65,17 @@ function showRight(index) {
 }
 
 function itemClick(cat_id){
-    window.open('../list/index.html?cid='+cat_id+'', '_self')
+    window.open('../list/index.html?cid='+cat_id+'&pagenum=1', '_self')
 }
 
 btn_back.onclick = function(){
     window.history.go(-1);
+}
+
+let search = document.getElementById('search');
+search.onkeydown = function (event) {
+    var code = event.keyCode;
+    if (code == 13) { //这是键盘的enter监听事件
+        window.open('../list/index.html?query='+search.value+'&pagenum=1', '_self');
+    }
 }
