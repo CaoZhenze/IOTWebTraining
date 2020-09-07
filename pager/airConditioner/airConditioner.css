@@ -18,7 +18,7 @@ html,body{
     /* 防止被遮盖住，点不到 */
 }
 .head p{
-    font-size: 0.3rem;
+    font-size: 0.18rem;
 }
 .head span{
     font-size: 0.3rem;
@@ -33,11 +33,15 @@ html,body{
     background: dodgerblue;
     
 }
-.display span{
-    font-size: 0.3rem;
+.display .icon-wifi{
+    float: left;
+}
+.display .home_temp{
+    width: 3.75rem;
+    font-size: 0.17rem;
     color: white;
     text-align: center;
-    margin-left: 0.5rem;
+    padding-top: 0.1rem;
 }
 
 .kongtiao{

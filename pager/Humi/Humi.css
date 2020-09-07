@@ -18,7 +18,7 @@ html,body{
     /* 防止被遮盖住，点不到 */
 }
 .head p{
-    font-size: 0.3rem;
+    font-size: 0.18rem;
     color: white;
 }
 .head span{
@@ -31,8 +31,8 @@ html,body{
     display: flex;
     flex-direction: column;
     margin-top: 0.5rem;
-    font-size: 0.2rem;
-    color: white;
+    font-size: 0.15rem;
+    color: rgb(230, 230, 230);
     align-items: flex-end;
 }
 .box{
@@ -50,7 +50,7 @@ html,body{
 #dangwei{
     margin-top: 0.2rem;
     text-align: center;
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     color: white;
 }
 .box_up{
@@ -78,7 +78,7 @@ html,body{
 
 .box_down{
     width: 2.4rem;
-    height: 0.4rem;
+    height: 0.2rem;
     font-size: 0.15rem;
     position: fixed;
     display: flex;
@@ -93,11 +93,11 @@ html,body{
     color: greenyellow;
 }
 .box_down p{
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     color: white;
 }
 .box_down span{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: white;
 }
 
@@ -120,7 +120,7 @@ html,body{
     color: greenyellow;
 }
 .footer p{
-    font-size: 0.2rem;
+    font-size: 0.15rem;
     color: white;
 
 }

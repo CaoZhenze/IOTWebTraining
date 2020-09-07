@@ -28,8 +28,7 @@
     <div class="display">
 
         <i class="iconfont icon-wifi" style="color: rgb(20, 240, 75);font-size: 0.4rem;"></i>
-        <span>室内温度:26℃
-        </span>
+        <div class="home_temp">室内温度:26℃</div>
         <div class="kongtiao iconfont icon-icon_airconditioning">
         </div>
         <div id="conditioner" class="conditionerPic">  </div>
@@ -38,13 +37,13 @@
     <div class="addcut">
         <div class="set">
             <div>
-                <span class="iconfont icon-jian"></span>
+                <span onclick="sub()" class="iconfont icon-jian"></span>
             </div>
             <div>
-                <p>24℃</p>
+                <p id="temp">24℃</p>
             </div>
             <div>
-                <span class="iconfont icon-jia"></span>
+                <span onclick="add()" class="iconfont icon-jia"></span>
             </div>
         </div>
         
