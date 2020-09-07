@@ -20,7 +20,7 @@
         </div>
         <div class="head_deivce">
             <div class="device_close iconfont icon-guanji"></div>
-            <div class="device_temp">60</div>
+            <div id="device_temp" class="device_temp">60</div>
             <span>°</span>
             <div class="device_state">设置温度·加热中</div>
             <div class="device_state2">
@@ -28,34 +28,34 @@
                 <div class="device_hot_water">热水量：100%</div>
             </div>
             <div class="device_btn_change">
-                <div class="device_btn_sub">-</div>
-                <div class="device_btn_add">+</div>
+                <div onclick="btn_sub()" class="device_btn_sub">-</div>
+                <div onclick="btn_add()" class="device_btn_add">+</div>
             </div>
         </div>
     </div>
     <div class="content">
         <ul>
-            <li>
+            <li onclick="change_state(0)">
                 <div class="content_pic iconfont icon-shanxingtubeifen2"></div>
                 <div class="content_info">e+增容</div>
             </li>
-            <li>
+            <li onclick="change_state(1)">
                 <div class="content_pic iconfont icon-yunguanjia"></div>
                 <div class="content_info">云管家</div>
             </li>
-            <li>
+            <li onclick="change_state(2)">
                 <div class="content_pic iconfont icon-xijun"></div>
                 <div class="content_info">高温抑菌</div>
             </li>
-            <li>
+            <li onclick="change_state(3)">
                 <div class="content_pic iconfont icon-jiadian_chatou"></div>
                 <div class="content_info">无电洗</div>
             </li>
-            <li>
+            <li onclick="change_state(4)">
                 <div class="content_pic iconfont icon-RectangleCopy"></div>
                 <div class="content_info">预约</div>
             </li>
-            <li>
+            <li onclick="change_state(5)">
                 <div class="content_pic iconfont icon-jiarehuoyan-xianxing"></div>
                 <div class="content_info">半胆速热</div>
             </li>
